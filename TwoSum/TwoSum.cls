@@ -13,18 +13,17 @@ public with sharing class TwoSum {
     }
 
     public List<Integer> scan() {
-        List<Integer> indexes;
-        
+        Map<Integer, Integer> complementMap = new Map<Integer, Integer>();
+
         for(Integer i = 0; i < nums.size(); i++){
-            if(i == 0){
-                continue;
-            }
-            Integer previous = nums[i - 1];
-            if(target - previous == nums[i]){
-                indexes =  new List<Integer>{i - 1, i};
+            if(complementMap.containsKey(nums[i])){
+                return new List<Integer>{complementMap.get(nums[i]), i};
+            }else{
+                Integer complement = target - nums[i];
+                complementMap.put(complement, i);
             }
         }
 
-        return indexes;
+        return null;
     }
 }
