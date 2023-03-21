@@ -1,7 +1,7 @@
 /**
- * @description       : Given an array of Integers and an Integer target, identify indexes of two numbers such as they add up to the target.
- *                      You may assume that each input would have exactly one solution and you may not use the same element twice.
- * @author            : vetealaurent
+ * @description : Given an array of Integers and an Integer target, identify indexes of two numbers such as they add up to the target.
+ *                You may assume that each input would have exactly one solution and you may not use the same element twice.
+ * @author      : vetealaurent
 **/
 public with sharing class TwoSum {
     List<Integer> nums;
