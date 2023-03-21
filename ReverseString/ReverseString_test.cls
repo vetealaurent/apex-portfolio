@@ -1,5 +1,5 @@
 @isTest
-public with sharing class ReverseString_test {
+private with sharing class ReverseString_test {
 
     @isTest
     private static void ReverseString_test() {
