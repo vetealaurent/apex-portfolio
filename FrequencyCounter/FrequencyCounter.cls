@@ -1,5 +1,5 @@
 /**
- * @description : Given a list of String, count the occurences
+ * @description : Given an array of Strings, count the occurences
  * @author      : vetealaurent
 **/
 public with sharing class FrequencyCounter {
