@@ -1,3 +1,7 @@
+/**
+ * @description : Given a list of String, count the occurences
+ * @author      : vetealaurent
+**/
 public with sharing class FrequencyCounter {
     List<String> words;
 

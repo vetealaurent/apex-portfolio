@@ -1,3 +1,7 @@
+/**
+ * @description : Given a String input, reverse it
+ * @author      : vetealaurent
+**/
 public with sharing class ReverseString {
     List<Integer> chars;
 
